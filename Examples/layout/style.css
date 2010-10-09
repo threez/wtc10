@@ -1,0 +1,21 @@
+/*@mixin container-style {
+  border: 1px solid gray;
+  background-color: lighten(gray, 30%);
+  padding: $default-spacing;
+}
+$container-padding: $default-spacing * 2;
+*/
+.container {
+  display: block;
+  width: 900px;
+  margin: 10px auto; }
+  .container .content {
+    float: left;
+    display: block;
+    width: 600px; }
+  .container .content-footer {
+    clear: left; }
+  .container .sidebar {
+    float: right;
+    display: block;
+    width: 290px; }
