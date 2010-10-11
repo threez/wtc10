@@ -1,21 +1,20 @@
-/*@mixin container-style {
-  border: 1px solid gray;
-  background-color: lighten(gray, 30%);
-  padding: $default-spacing;
-}
-$container-padding: $default-spacing * 2;
-*/
 .container {
   display: block;
   width: 900px;
   margin: 10px auto; }
   .container .content {
+    border: 1px solid gray;
+    background-color: #cccccc;
+    padding: 10px;
     float: left;
     display: block;
-    width: 600px; }
+    width: 580px; }
   .container .content-footer {
     clear: left; }
   .container .sidebar {
+    border: 1px solid gray;
+    background-color: #cccccc;
+    padding: 10px;
     float: right;
     display: block;
-    width: 290px; }
+    width: 270px; }

@@ -1,23 +1,23 @@
 $page-width: 900px;
 $default-spacing: 10px;
 
-/*@mixin container-style {
+@mixin container-style {
   border: 1px solid gray;
   background-color: lighten(gray, 30%);
   padding: $default-spacing;
 }
 $container-padding: $default-spacing * 2;
-*/
+
 .container {
   display: block;
   width: $page-width;
   margin: $default-spacing auto;
   
   .content {
-    //@include container-style;
+    @include container-style;
     float: left;
     display: block;
-    width: $page-width * 2/3; // - $container-padding;
+    width: $page-width * 2/3 - $container-padding;
   }
   
   .content-footer {
@@ -25,9 +25,9 @@ $container-padding: $default-spacing * 2;
   }
  
   .sidebar {
-    //@include container-style;
+    @include container-style;
     float: right;
     display: block;
-    width: $page-width * 1/3 - $default-spacing; // - $container-padding;
+    width: $page-width * 1/3 - $default-spacing - $container-padding;
   }
 }

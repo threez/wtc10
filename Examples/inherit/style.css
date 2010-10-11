@@ -1,0 +1,16 @@
+.person, .student, .school-student, .professor {
+  color: blue;
+}
+
+.student, .school-student {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.school-student {
+  font-style: normal;
+}
+
+.professor {
+  color: red;
+}
